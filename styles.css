@@ -1,0 +1,56 @@
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4a261; /* Color of the header */
+    color: white;
+}
+
+
+
+
+
+
+.petstats {
+   
+   
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #e9c46a;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.pet-image {
+   width: 400px;
+    height: auto; 
+    border: darkorchid;
+    border-style:groove;
+    border-width: 5px;
+    
+    
+}
+
+#play-button {
+    border-style: outset;
+    border-width: 8px;
+    border-color: chocolate;
+    background-color:rgb(218, 114, 40);
+}
+#eat-button {
+    border-style: outset;
+    border-width: 8px;
+    border-color: chocolate;
+    background-color:rgb(218, 114, 40);
+}
+#rest-button {
+    border-style: outset;
+    border-width: 8px;
+    border-color: chocolate;
+    background-color:rgb(218, 114, 40);
+    
+}
+body {
+    background-image:url(Images/background.jpg) ;
+    background-position: center;
+}

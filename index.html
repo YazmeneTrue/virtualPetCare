@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❣MY PET❣</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1> ❣ My Virtual Companion ❣ </h1>
+    </header>
+
+    <form id="pet-form">
+        <label for="pet-type">Pet Type</label>
+     <select value="" name="petType" id="pet-type">
+        <option disabled selected>--Choose--</option>
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="hamster">Hamster</option>
+     </select>
+     <label for="pet-name">Pet's Name:</label>
+     <input type="text" id="pet-name" name="petname" required>
+     <div>
+        <input type="submit" value="Create Pet">
+     </div>
+     </form>
+     <div class="petstats" >
+        <p>Health: <span id="pet-health"> </span></p>
+        <p>Happiness: <span id="pet-happiness"> </span></p>
+        <p>Energy: <span id="pet-energy"> </span></p>
+     </div>
+
+     <div class="petPhoto" id="pet-photo"></div>
+
+<div id="pet-hint" class="hint"></div>
+
+    <div class="actionButtons" id="action-buttons">
+        <input type="button" id="play-button" name="playButton" value="Play With Me!">
+        <input type="button" id="rest-button" name="restButton" value="Time For Bed!">
+        <input type="button" id="eat-button" name="eatButton" value="Feed Me!">
+
+    </div>
+    
+    <div class="funFacts" id="fun-facts">
+        <h3>Pet Fun Facts</h3>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "cat": {
+        "funFacts": [
+            "Cats can jump up to six times their body length.",
+            "Cats have five toes on their front paws, but only four on their back paws.",
+            "A cat's nose is as unique as a human's fingerprint."
+        ]
+    },
+    "dog": {
+        "funFacts": [
+            "Dogs have a sense of time and can be trained to perform at certain times.",
+            "Dogs' noses are 40 times more powerful than humans'.",
+            "Dogs have three eyelids!"
+        ]
+    },
+    "hamster": {
+        "funFacts": [
+            "Hamsters can store food in their cheeks and carry it back to their burrows.",
+            "Hamsters are nocturnal, meaning they are active at night.",
+            "Hamsters can run up to 8 miles a night on a wheel."
+        ]
+    }
+}
